@@ -3,6 +3,20 @@ import "./App.css";
 
 import miImagen from "./assets/images/osvaldo_ochoa.jpg";
 import majinVegeta from "./assets/images/majin_vegeta.jpg";
+
+import react from "./assets/icons/react.svg";
+import angular from "./assets/icons/angular.png";
+import html from "./assets/icons/html.png";
+import css from "./assets/icons/css.svg";
+import js from "./assets/icons/js.svg";
+import tailwind from "./assets/icons/tailwind.png";
+import figma from "./assets/icons/figma.svg";
+import nodeJs from "./assets/icons/nodejs.svg";
+import express from "./assets/icons/express.png";
+import go from "./assets/icons/go.png";
+import mongodb from "./assets/icons/mongodb.png";
+import mysql from "./assets/icons/mysql.png";
+
 import github from "./assets/icons/github.png";
 import linkedin from "./assets/icons/linkedin.png";
 import cv from "./assets/icons/cv.png";
@@ -19,10 +33,12 @@ function App() {
             OSVALDO OCHOA
           </h1>
           <h2 className="text-6xl font-bold text-black">WEB DEVELOPER JR</h2>
-          <p className="text-2xl text-gray-600 uppercase">
-            El inicio de una etapa enfocada en demostrar
-            <br />
-            compromiso, responsabilidad y profesionalismo.
+          <p className="text-1xl text-gray-600">
+            Enfocado en la creación de soluciones digitales modernas,
+            funcionales y centradas en el usuario. Cuento con una sólida base
+            técnica en React y principios de UX/UI, lo que me permite diseñar y
+            desarrollar interfaces que combinan rendimiento, experiencia de
+            usuario y diseño visual de alta calidad.
           </p>
         </div>
 
@@ -77,9 +93,69 @@ function App() {
           </div>
         </div>
 
-        <div className="bg-gray-900 col-start-3 col-span-2 row-start-6 row-span-4 rounded-lg shadow-xl" />
+        <div className="bg-gray-900 text-white col-start-1 col-span-2 row-start-6 row-span-4 rounded-lg shadow-xl p-4 flex flex-col">
+          <h2 className=" text-lg font-bold uppercase tracking-wider mb-3 ml-6">
+            Frontend & Diseño
+          </h2>
+          <div className="grid grid-cols-4 gap-2 flex-1 items-center ">
+            <div className="flex flex-col items-center justify-center">
+              <img className="w-auto h-10" src={react} alt="React Icon" />
+              <p>React</p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img className="w-auto h-10" src={angular} alt="" />
+              <p>Angular</p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img className="w-auto h-10" src={js} alt="" />
+              <p>JavaScript</p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img className="w-auto h-10" src={html} alt="" />
+              <p>HTML</p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img className="w-auto h-10" src={css} alt="" />
+              <p>CSS3</p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img className="w-auto h-10" src={tailwind} alt="" />
+              <p>Tailwind </p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img className="w-auto h-10" src={figma} alt="" />
+              <p>Figma</p>
+            </div>
+          </div>
+        </div>
 
-        <div className="bg-red-900 col-start-1 col-span-2 row-start-6 row-span-4 " />
+        <div className="bg-gray-900 text-white col-start-3 col-span-2 row-start-6 row-span-4 rounded-lg shadow-xl p-4 flex flex-col">
+          <h2 className=" text-lg font-bold uppercase tracking-wider mb-3 ml-6">
+            Backend y Base de Datos
+          </h2>
+          <div className="grid grid-cols-4 gap-2 flex-1 items-center ">
+            <div className="flex flex-col items-center justify-center">
+              <img className="w-auto h-10" src={nodeJs} alt="NodeJS Icon" />
+              <p>Node JS</p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img className="w-auto h-10" src={express} alt="ExpressJS Icon" />
+              <p>Express JS</p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img className="w-auto h-10" src={go} alt="Go Icon" />
+              <p>Go</p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img className="w-auto h-10" src={mongodb} alt="MongoDB Icon" />
+              <p>MongoDB</p>
+            </div>
+            <div className="flex flex-col items-center justify-center">
+              <img className="w-auto h-10" src={mysql} alt="MySQL Icon" />
+              <p>MySQL</p>
+            </div>
+          </div>
+        </div>
 
         <div className="bg-blue-900 col-start-1 col-span-2 row-start-10 row-span-3 rounded-lg shadow-xl" />
 
