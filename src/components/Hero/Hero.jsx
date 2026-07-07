@@ -1,5 +1,8 @@
 import "../../App.css";
 
+import HeroBlockMain from "./HeroBlockMain.jsx";
+import HeroBlockInfo from "./HeroBlockInfo.jsx";
+
 import miImagen from "../../assets/images/osvaldo_ochoa.jpg";
 
 import react from "../../assets/icons/react.svg";
@@ -21,55 +24,36 @@ import cv from "../../assets/icons/cv.png";
 
 function Hero() {
   return (
-    <section className="h-[700px] w-[1000px] grid grid-cols-5 grid-rows-12 gap-3 p-4">
-      <div className="bg-yellow-300 col-start-1 col-span-4 row-start-1 row-span-5 rounded-lg shadow-xl flex flex-col justify-center p-6">
-        <p className="text-xs uppercase tracking-widest text-gray-500">
-          PORTFOLIO · 2026
-        </p>
-        <h1 className="text-4xl font-semibold text-black mt-2">
-          OSVALDO OCHOA
-        </h1>
-        <h2 className="text-6xl font-bold text-black">WEB DEVELOPER JR</h2>
-        <p className="text-1xl text-gray-600">
-          Enfocado en la creación de soluciones digitales modernas, funcionales
-          y centradas en el usuario. Cuento con una sólida base técnica en React
-          y principios de UX/UI, lo que me permite diseñar y desarrollar
-          interfaces que combinan rendimiento, experiencia de usuario y diseño
-          visual de alta calidad.
-        </p>
-      </div>
-      <div className="bg-yellow-300 col-start-5 col-span-1 row-start-1 row-span-2 rounded-lg shadow-xl h-full flex flex-col p-3">
-        <p className="text-xs font-medium text-gray-700 self-start uppercase tracking-wider">
-          Made In
-        </p>
-        <div className="flex-1 flex items-end justify-start">
-          <h2 className="text-2xl md:text-3xl font-black text-gray-900 tracking-tight">
-            México
-          </h2>
-        </div>
-      </div>
+    <section className="h-[700px] w-[1200px] grid grid-cols-5 grid-rows-12 gap-3 p-4">
+      <HeroBlockMain />
 
-      <div className="bg-gray-900 col-start-5 col-span-1 row-start-3 row-span-2 rounded-lg shadow-xl h-full flex flex-col p-3">
-        <p className="text-xs font-medium text-gray-400 self-start uppercase tracking-wider">
-          Experience
-        </p>
-        <div className="flex-1 flex items-end justify-start">
-          <h2 className="text-2xl md:text-3xl font-black text-yellow-500">
-            +3 Years
-          </h2>
-        </div>
-      </div>
+      <HeroBlockInfo
+        title="STATUS"
+        info="Open To Work"
+        bgColor="bg-gray-900"
+        infoColor="text-yellow-300"
+        rowStart={1}
+        rowSpan={2}
+      />
 
-      <div className="bg-gray-900 col-start-5 col-span-1 row-start-5 row-span-2 rounded-lg shadow-xl h-full flex flex-col p-3">
-        <p className="text-xs font-medium text-gray-400 self-start uppercase tracking-wider">
-          STATUS
-        </p>
-        <div className="flex-1 flex items-end justify-start">
-          <h2 className="text-2xl md:text-1xl font-black text-yellow-500">
-            Available for work
-          </h2>
-        </div>
-      </div>
+      <HeroBlockInfo
+        title="Experience"
+        info="+3 Years"
+        bgColor="bg-yellow-300"
+        infoColor="text-gray-900"
+        labelColor="text-black"
+        rowStart={3}
+        rowSpan={2}
+      />
+
+      <HeroBlockInfo
+        title="Made In"
+        info="México"
+        bgColor="bg-gray-900"
+        infoColor="text-yellow-300"
+        rowStart={5}
+        rowSpan={2}
+      />
 
       <div className="col-start-5 col-span-1 row-start-7 row-span-6 rounded-lg shadow-xl overflow-hidden">
         <img
@@ -163,7 +147,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="bg-yellow-300 col-start-1 col-span-3 row-start-10 row-span-3 rounded-lg shadow-xl  flex flex-col p-4">
+      <div className="bg-white col-start-1 col-span-3 row-start-10 row-span-3 rounded-lg shadow-xl  flex flex-col p-4">
         <h2 className=" text-lg font-bold uppercase tracking-wider mb-3 ml-1">
           Procesos y metodologías
         </h2>
