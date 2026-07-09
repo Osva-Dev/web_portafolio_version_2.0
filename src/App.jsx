@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 
+import Header from "./components/Header/Header.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import ProjectBlock from "./components/Project/ProjectBlock.jsx";
 
@@ -9,6 +10,7 @@ import newsExplorer from "./assets/images/news_explorer.png";
 function App() {
   return (
     <div className="min-h-screen bg-black flex flex-col items-center py-8 px-4">
+      <Header />
       <div className="w-full max-w-7xl mx-auto">
         <Hero />
         <section className="text-white ">
