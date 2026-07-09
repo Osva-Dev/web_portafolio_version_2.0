@@ -24,7 +24,7 @@ import cv from "../../assets/icons/cv.png";
 
 function Hero() {
   return (
-    <section className="h-[700px] w-[1200px] grid grid-cols-5 grid-rows-12 gap-3 p-4">
+    <section className="grid grid-cols-5 grid-rows-12 gap-3 p-4">
       <HeroBlockMain />
 
       <HeroBlockInfo
