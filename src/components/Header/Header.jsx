@@ -29,12 +29,6 @@ function Header() {
                 href="#"
                 className="text-sm text-gray-300 hover:text-white transition-colors"
               >
-                Services
-              </a>
-              <a
-                href="#"
-                className="text-sm text-gray-300 hover:text-white transition-colors"
-              >
                 Contact
               </a>
             </nav>
@@ -95,12 +89,6 @@ function Header() {
               className="block text-sm text-gray-300 hover:text-white transition-colors"
             >
               About
-            </a>
-            <a
-              href="#"
-              className="block text-sm text-gray-300 hover:text-white transition-colors"
-            >
-              Services
             </a>
             <a
               href="#"
