@@ -24,7 +24,7 @@ import cv from "../../assets/icons/cv.png";
 
 function Hero() {
   return (
-    <section className="grid grid-cols-5 grid-rows-12 gap-3 p-4">
+    <section className="grid grid-cols-5 grid-rows-12 gap-3 p4 mt-16">
       <HeroBlockMain />
 
       <HeroBlockInfo
@@ -86,7 +86,7 @@ function Hero() {
       </div>
 
       <div className="bg-gray-900 text-white col-start-1 col-span-2 row-start-6 row-span-4 rounded-lg shadow-xl p-4 flex flex-col">
-        <h2 className=" text-lg font-bold uppercase tracking-wider mb-3 ml-6">
+        <h2 className="text-xs font-medium text-gray-400 self-start uppercase tracking-wider ml-10 mb-4">
           Frontend & Diseño
         </h2>
         <div className="grid grid-cols-4 gap-2 flex-1 items-center ">
@@ -121,7 +121,7 @@ function Hero() {
         </div>
       </div>
       <div className="bg-gray-900 text-white col-start-3 col-span-2 row-start-6 row-span-4 rounded-lg shadow-xl p-4 flex flex-col">
-        <h2 className=" text-lg font-bold uppercase tracking-wider mb-3 ml-6">
+        <h2 className="text-xs font-medium text-gray-400 self-start uppercase tracking-wider ml-10 mb-4">
           Backend y Base de Datos
         </h2>
         <div className="grid grid-cols-4 gap-2 flex-1 items-center ">
@@ -148,7 +148,7 @@ function Hero() {
         </div>
       </div>
       <div className="bg-white col-start-1 col-span-3 row-start-10 row-span-3 rounded-lg shadow-xl  flex flex-col p-4">
-        <h2 className=" text-lg font-bold uppercase tracking-wider mb-3 ml-1">
+        <h2 className="text-xs font-medium text-black self-start uppercase tracking-wider ml-2 mb-4">
           Procesos y metodologías
         </h2>
         <div className="flex flex-wrap gap-2 flex-1 content-start ">
