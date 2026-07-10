@@ -23,6 +23,7 @@ function App() {
         <div className="grid grid-cols-3 gap-6">
           <ProjectBlock
             number="01"
+            page={"https://osva-dev.github.io/news_explorer_frontend"}
             img={newsExplorer}
             technologies="React · Vite"
             title="News Explorer"
@@ -39,6 +40,7 @@ function App() {
           />
           <ProjectBlock
             number="03"
+            page={"https://osva-dev.github.io/web_project_homeland"}
             img={artGallery}
             technologies="HTML · CSS"
             title="Tripleten Art Gallery"

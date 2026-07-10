@@ -72,13 +72,25 @@ function Hero() {
             <p className="text-white mb-3">osvadev30@gmail.com</p>
           </div>
           <div className="flex gap-4">
-            <a href="#" target="_blank" rel="noopener noreferrer">
-              <img src={cv} alt="LinkedIn" className="h-11 w-11" />
+            <a
+              href="https://drive.google.com/file/d/1kBBdWtXFTy0-OenDwe2Y5l9cHT39rHA5/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={cv} alt="CV" className="h-11 w-11" />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://github.com/Osva-Dev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={github} alt="GitHub" className="h-10 w-10" />
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a
+              href="https://www.linkedin.com/in/osvaldo-ochoa/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src={linkedin} alt="LinkedIn" className="h-10 w-10" />
             </a>
           </div>
