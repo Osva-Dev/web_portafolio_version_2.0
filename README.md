@@ -11,12 +11,16 @@ Este es mi portafolio personal, actualmente en **fase de borrador**. Está const
 - Tailwind CSS | Estilos utilitarios y responsivos |
 - Git / GitHub | Control de versiones y flujo de PR |
 
+## Link del Proyecto
+
+Proyecto Desplegado: [https://osva-dev.github.io/web_portafolio_version_2.0/](https://osva-dev.github.io/web_portafolio_version_2.0/)
+
 ## Contacto
 
 Si quieres saber más sobre el proceso o colaborar, escríbeme a:
 
 - Email: osvadev30@gmail.com
-- LinkedIn: linkedin.com/in/tuusuario
-- GitHub: github.com/tuusuario
+- LinkedIn: [https://www.linkedin.com/in/osvaldo-ochoa/](https://www.linkedin.com/in/osvaldo-ochoa/)
+- GitHub: [https://github.com/Osva-Dev](https://github.com/Osva-Dev)
 
 📌 Nota: Este README se actualizará conforme el proyecto avance. Si estás viendo esto, probablemente estés en medio del proceso. ¡Bienvenido a mi taller digital!

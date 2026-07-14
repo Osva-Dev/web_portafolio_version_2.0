@@ -7,14 +7,14 @@ import HeroContact from "./HeroContact";
 
 function Hero() {
   return (
-    <div className="h-[850px] w-[1250px] grid grid-cols-10 grid-rows-6 gap-4 mt-15 px-4">
+    <section className="h-[850px] w-[1250px] grid grid-cols-10 grid-rows-6 gap-4 mt-15 px-4">
       <HeroMain />
       <HeroData />
       <HeroTechnologies />
       <HeroPhoto />
       <HeroProcessesAndMethodologies />
       <HeroContact />
-    </div>
+    </section>
   );
 }
 
