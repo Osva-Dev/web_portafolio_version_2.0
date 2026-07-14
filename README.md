@@ -1,11 +1,4 @@
-import { useState } from "react";
-import "./App.css";
-
-import miImagen from "./assets/images/osvaldo_ochoa.jpg";
-import majinVegeta from "./assets/images/majin_vegeta.jpg";
-import github from "./assets/icons/github.png";
-import linkedin from "./assets/icons/linkedin.png";
-import cv from "./assets/icons/cv.png";# 🧩 Portafolio · 2026 — Borrador en construcción
+# Osvaldo Ochoa - Web Portafolio
 
 _“El inicio de una etapa enfocada en demostrar compromiso, responsabilidad y crecimiento profesional.”_
 
