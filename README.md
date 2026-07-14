@@ -6,10 +6,19 @@ Este es mi portafolio personal, actualmente en **fase de borrador**. Está const
 
 ## 🛠️ Tecnologías utilizadas
 
-- React 19: Interfaz de usuario y componentes |
-- Vite | Build tool y desarrollo rápido |
-- Tailwind CSS | Estilos utilitarios y responsivos |
-- Git / GitHub | Control de versiones y flujo de PR |
+- React 19: Interfaz de usuario y componentes.
+- Vite: Build tool y desarrollo rápido.
+- Tailwind CSS: Estilos utilitarios y responsivos.
+- Git / GitHub: Control de versiones y flujo de PR.
+
+## Proximas Mejoras
+
+- Sección About Me.
+- Sección Contact.
+- Medias Queries.
+- Animaciones.
+- Mejoras en el diseño.
+- Nuevos proyectos.
 
 ## Link del Proyecto
 
