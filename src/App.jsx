@@ -14,8 +14,8 @@ function App() {
   return (
     <div className="min-h-screen bg-black flex flex-col items-center py-8 px-4">
       <Header />
+      <Hero />
       <div className="w-full max-w-7xl mx-auto">
-        <Hero />
         <section className="text-white ">
           <p>01 · Selected work</p>
           <h2>RECENT PROJECTS</h2>
