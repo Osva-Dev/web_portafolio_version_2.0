@@ -4,6 +4,7 @@ import "./App.css";
 import Header from "./components/Header/Header.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import Project from "./components/Project/Project.jsx";
+import Service from "./components/Service/Service.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
@@ -18,7 +19,13 @@ function App() {
         </div>
         <Project />
       </div>
-
+      <div className="w-full max-w-7xl mx-auto mt-25">
+        <div className="text-white ">
+          <p>02 · Services</p>
+          <h2>WHAT I CAN CONTRIBUTE</h2>
+        </div>
+      </div>
+      <Service />
       <Footer />
     </div>
   );
