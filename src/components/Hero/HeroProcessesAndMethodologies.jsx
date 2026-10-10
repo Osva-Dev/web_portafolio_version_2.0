@@ -1,10 +1,10 @@
 function HeroProcessesAndMethodologies() {
   return (
-    <div className="bg-white col-start-1 col-span-6 row-start-6 row-span-2 rounded-xl shadow-sm p-4 flex flex-col">
-      <h2 className="text-xs font-medium text-gray-600 self-start uppercase tracking-wider mb-2 ml-2">
-        Procesos y metodologías
+    <div className="bg-gray-900 col-start-1 col-span-6 row-start-6 row-span-2 rounded-xl shadow-sm p-4 flex flex-col">
+      <h2 className="text-xs font-medium text-gray-400 self-start uppercase tracking-wider mb-2 ml-2">
+        Processes and Methodologies
       </h2>
-      <div className="flex flex-wrap gap-1.5 flex-1 content-start mt-2">
+      <div className="flex flex-wrap gap-3 flex-1 content-start mt-2">
         {[
           "Git",
           "GitHub",

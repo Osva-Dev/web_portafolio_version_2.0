@@ -17,7 +17,7 @@ function HeroTechnologies() {
     <>
       <div className="bg-gray-900 text-white col-start-1 col-span-4 row-start-4 row-span-2 rounded-xl shadow-lg p-5 flex flex-col">
         <h2 className="text-xs font-medium text-gray-400 self-start uppercase tracking-wider mb-4 ml-6">
-          Frontend & Diseño
+          Frontend and Design
         </h2>
         <div className="grid grid-cols-4 gap-3 flex-1 items-center">
           {[react, angular, js, html, css, tailwind, figma].map((icon, idx) => (
@@ -46,7 +46,7 @@ function HeroTechnologies() {
 
       <div className="bg-gray-900 text-white col-start-5 col-span-4 row-start-4 row-span-2 rounded-xl shadow-lg p-5 flex flex-col">
         <h2 className="text-xs font-medium text-gray-400 self-start uppercase tracking-wider mb-4 ml-6">
-          Backend y Base de Datos
+          Backend and Database
         </h2>
         <div className="grid grid-cols-4 gap-3 flex-1 items-center">
           {[nodeJs, express, go, mongodb, mysql].map((icon, idx) => (

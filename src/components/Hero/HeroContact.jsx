@@ -4,7 +4,7 @@ import linkedin from "../../assets/icons/linkedin.png";
 
 function HeroContact() {
   return (
-    <div className="bg-gray-800 text-white col-start-7 col-span-2 row-start-6 row-span-2 rounded-xl shadow-lg p-4 flex flex-col">
+    <div className="bg-gray-900 text-white col-start-7 col-span-2 row-start-6 row-span-2 rounded-xl shadow-lg p-4 flex flex-col">
       <p className="text-xs font-medium text-gray-400 self-start uppercase tracking-wider">
         Contact Me
       </p>
