@@ -11,7 +11,7 @@ function HeroContact() {
       <div className="flex-1 flex  items-end justify-left gap-2">
         <div className="flex gap-4">
           <a
-            href="https://drive.google.com/file/d/1kBBdWtXFTy0-OenDwe2Y5l9cHT39rHA5/view?usp=drive_link"
+            href="https://drive.google.com/drive/folders/1UWEZP-F8NeK_Jkg2ZmtBV-rYUGLKmor0"
             target="_blank"
             rel="noopener noreferrer"
           >
