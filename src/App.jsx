@@ -14,15 +14,19 @@ function App() {
       <Hero />
       <div className="w-full max-w-7xl mx-auto mt-25">
         <div className="text-white ">
-          <p>01 · Selected work</p>
-          <h2>RECENT PROJECTS</h2>
+          <p className="text-3xl font-black tracking-tight text-gray-100">
+            01 · Selected work
+          </p>
+          <h2 className="text-2xl">RECENT PROJECTS</h2>
         </div>
         <Project />
       </div>
       <div className="w-full max-w-7xl mx-auto mt-25">
         <div className="text-white ">
-          <p>02 · Services</p>
-          <h2>WHAT I CAN CONTRIBUTE</h2>
+          <p className="text-3xl font-black tracking-tight text-gray-100">
+            02 · Services
+          </p>
+          <h2 className="text-2xl">WHAT I CAN CONTRIBUTE</h2>
         </div>
       </div>
       <Service />
