@@ -12,7 +12,7 @@ function Project() {
         img={newsExplorer}
         technologies="React · Vite"
         title="News Explorer"
-        paragraph="Aplicación web para explorar noticias, guardar artículos favoritos y gestionar tu contenido personalizado. Integra la API de noticias de terceros (News API) para obtener información actualizada y utiliza mockapi.io para la autenticación y persistencia de datos."
+        paragraph="A web application for browsing news, saving favorite articles, and managing your personalized content. It integrates with third-party news APIs for up-to-date information and uses mockapi.io for authentication and data persistence."
         year="2026"
       />
       <ProjectBlock
@@ -21,7 +21,7 @@ function Project() {
         img={aroundUsa}
         technologies="React · Vite · NodeJS · Express · MongoDB · Google Cloud"
         title="Around the USA"
-        paragraph="Aplicación web completa que permite a los usuarios tener una red socialcompartir y dar “me gusta” a fotografías de viajes. Incluye una API REST propia del proyecto, y un frontend dinámico."
+        paragraph="A complete web application that allows users to share and like travel photos on a social network. It includes a custom REST API and a dynamic frontend."
         year="2026"
       />
       <ProjectBlock
@@ -30,7 +30,7 @@ function Project() {
         img={artGallery}
         technologies="HTML · CSS"
         title="Tripleten Art Gallery"
-        paragraph="Landing Page responsive que consiste en una galería de arte virtual q. El proyecto demuestra la capacidad de maquetar diseños complejos, implementar sistemas de grid, y crear experiencias completamente responsivas sin el uso de frameworks externos."
+        paragraph="Responsive landing page consisting of a virtual art gallery. The project demonstrates the ability to lay out complex designs, implement grid systems, and create fully responsive experiences without the use of external frameworks."
         year="2025"
       />
     </div>

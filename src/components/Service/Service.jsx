@@ -13,43 +13,43 @@ function Service() {
     <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-7xl mx-auto my-12">
       <ServiceCard
         icon={code}
-        title="Desarrollo Fullstack"
-        description="Aplicaciones web, landing pages y mas."
+        title="Fullstack Development"
+        description="Web aplications, landing pages and more..."
       />
       <ServiceCard
         icon={document}
-        title="Documentación Técnica"
-        description="Guías claras y procesos documentados para equipos."
+        title="Technical Documentation"
+        description="Clear guidelines and documented processes for teams."
       />
       <ServiceCard
         icon={brush}
-        title="Diseño y Prototipado"
-        description="Wireframes y prototipos en Figma para alinear diseño y desarrollo."
+        title="Design and Prototyping"
+        description="Wireframes and prototypes in Figma to align design and development."
       />
       <ServiceCard
         icon={flag}
-        title="Liderazgo Técnico"
-        description="Organización, seguimiento y asignación de tareas y roles."
+        title="Technical Leadership"
+        description="Organization, monitoring and assignment of tasks and roles"
       />
       <ServiceCard
         icon={team}
-        title="Trabajo en Equipo"
-        description="Colaboración activa, comunicación clara y feedback constante."
+        title="Teamwork "
+        description="Active collaboration, clear communication, and constant feedback."
       />
       <ServiceCard
         icon={clock}
-        title="Gestión de Tiempo"
-        description="Organización y adaptabilidad para cumplir plazos en cualquier horario."
+        title="Time Management"
+        description="Organization and adaptability to meet deadlines at any time."
       />
       <ServiceCard
         icon={adaptation}
-        title="Adaptabilidad"
-        description="Aprendizaje continuo y rápida adaptación a nuevos entornos."
+        title="Adaptability"
+        description="Continuous learning and rapid adaptation to new environments."
       />
       <ServiceCard
         icon={lightbulb}
-        title="Innovación y Propuestas"
-        description="Generación de ideas alineadas con los objetivos de negocio."
+        title="Innovation and Proposals"
+        description="Generating ideas aligned with business objectives."
       />
     </section>
   );
